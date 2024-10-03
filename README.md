@@ -1,2 +1,2 @@
 # [savepypasswd](save-passwd.py)
-password generator save a random text filename.
+## This script generates a random password and saves it to a file.

@@ -1,5 +1,11 @@
+# Author: Gurraoptimus
+# Date: 24-10-3
+# Description: This script generates a random password and saves it to a file.
+
 import random
 import string
+
+# Function definitions follow...
 
 def generate_password(length=12):
     # Define the characters to use in the password
