@@ -20,7 +20,7 @@ def generate_random_filename(extension=".txt", length=8):
     return f"{random_chars}{extension}"
 
 def save_password_to_file(password, filename):
-    with open(filename, 'a') as file:
+    with open(filename, 'w') as file:
         file.write(password)
     return filename  # Return the filename for later use
 
